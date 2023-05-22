@@ -52,6 +52,7 @@ pipeline {
                 enableConfigSubstitution: true
                  )
             }
+        }
         stage('DeployToProduction') {
             when {
                 branch 'master'
